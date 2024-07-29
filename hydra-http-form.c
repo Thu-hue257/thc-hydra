@@ -14,7 +14,7 @@ with the service names of "http-get-form", "http-post-form",
 
 Here's a couple of examples: -
 
-./hydra -l "<userID>" -P pass.txt 10.221.64.12 http-post-form
+./hydra -l "<100074040880026>" -P pass.txt 10.221.64.12 http-post-form
 "/irmlab2/testsso-auth.do:ID=^USER^&Password=^PASS^:Invalid Password"
 
 ./hydra -S -s 443 -l "<username>" -P pass.txt 10.221.64.2 https-get-form
